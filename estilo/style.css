@@ -26,6 +26,7 @@ body {
     background-color: var(--cor0);
     font-family: var(--fonte-destaque);
     color:var(--cor3)
+    overflow-x: hidden;
 }
 
 header {
@@ -50,7 +51,7 @@ header > p {
         display: flex;
     justify-content: center; /* Centraliza os links horizontalmente */
     gap: 15px;
-
+    flex-wrap: wrap;
     }
     
 
